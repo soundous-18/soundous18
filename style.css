@@ -4,19 +4,33 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
+
+
+#animepara{
+  text-align:center;
+  font-family:"Corbel";
+  font-weight:bold;
+  font-size:68px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color:aliceblue;
+  transition: text-shadow 0.7s ease-in-out;
+}
+
 img {
-	width: 100%;
+	width: 50%;
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 20px;
 	color: darkblue;
 	text-align: left;
+	font-weight: 20px;
 }
 
 .gras {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 10px;
 }
 
 p {
@@ -26,3 +40,5 @@ p {
 a {
 	font-size: 17px;
 }
+
+
